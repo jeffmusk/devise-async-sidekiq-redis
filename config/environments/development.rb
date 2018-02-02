@@ -49,11 +49,11 @@ Rails.application.configure do
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
   
-  config.action_mailer.default_url_options = { host: 'http://www.devise-jeff-musk.c9users.io'}
+  config.action_mailer.default_url_options = { host: 'www.devise-jeff-musk.c9users.io'}
 
 ActionMailer::Base.smtp_settings = {
     :address        => 'smtp.sendgrid.net',
-    :port           => 587, #port used by smtp not yours
+    :port           => 2525, #port used by smtp not yours
     :user_name      => ENV['USER_NAME'],
     :password       => ENV['CONTRASENA'],
     :enable_starttls_auto => true,
