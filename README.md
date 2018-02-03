@@ -35,3 +35,14 @@ sidekiq  y redis
 
 * Database sqlite 3
 
+# Mas informacion 
+
++ [Authentication and sending confirmation email using Devise ](http://www.bogotobogo.com/RubyOnRails/RubyOnRails_Devise_Authentication_Sending_Confirmation_Email.php)
+
++ [Devise-async](https://github.com/mhfs/devise-async)- Envio de emails de devise de manera  asincrona
+
+
+
+
+
+
