@@ -1,24 +1,39 @@
-# README
+# Envio de emails asincronos con devise-async y sidekiq / redis
+
+     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
+    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
+    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
+    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
+     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
+    ----------------------------------------------------------------- 
+
+
+Envio asincrono de emails con devise
+sidekiq  y redis 
+
+inicie Redis : redis-server
+inicie sidekiq para emails: bundle exec sidekiq -q default -q mailers 
+inicie servidor rails : rails s -b $IP -p $PORT (para desarrollo en clud9) 
+
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby 2.4.1
 
-* System dependencies
+* rails 5.1.4
 
-* Configuration
+# Gems
 
-* Database creation
+* gem 'devise'
 
-* Database initialization
+* gem 'dotenv-rails'
 
-* How to run the test suite
+* gem 'devise-async'
 
-* Services (job queues, cache servers, search engines, etc.)
+* gem 'sidekiq'
 
-* Deployment instructions
+* Database sqlite 3
 
-* ...
