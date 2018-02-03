@@ -1,11 +1,5 @@
 # Envio de emails asincronos con devise-async y sidekiq / redis
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
 
 
 Envio asincrono de emails con devise
@@ -52,6 +46,8 @@ sidekiq  y redis
 
 + [Sending emails with ActionMailer and Sidekiq](https://gist.github.com/maxivak/690e6c353f65a86a4af9)[español](https://translate.googleusercontent.com/translate_c?depth=1&hl=es&prev=search&rurl=translate.google.com&sl=en&sp=nmt4&u=https://gist.github.com/maxivak/690e6c353f65a86a4af9&usg=ALkJrhiEWo2J-bIbtmbfpRHYx4deN7-DMg)
 
++ [sidekiq en rails](https://github.com/mperham/sidekiq/wiki/Getting-Started)
+
 + [video config sidekiq](https://www.youtube.com/watch?v=iIXLt24f8Mg&t=132s) - configurar interfas sidekiq 
 
 
@@ -63,4 +59,4 @@ sidekiq  y redis
      
   ----------------------------------------------------------------- 
 
-+ [sidekiq en rails](https://github.com/mperham/sidekiq/wiki/Getting-Started)
+
