@@ -41,8 +41,9 @@ sidekiq  y redis
 
 + [Devise-async](https://github.com/mhfs/devise-async)- Envio de emails de devise de manera  asincrona
 
++ [dotenv](https://github.com/bkeepers/dotenv)- Configuracion de variables de entorno
+
++ [How To: Use custom mailer](https://github.com/plataformatec/devise/wiki/How-To:-Use-custom-mailer)- Configuracion de variables de entorno - [español](https://translate.googleusercontent.com/translate_c?depth=1&hl=es&prev=search&rurl=translate.google.com&sl=en&sp=nmt4&u=https://github.com/plataformatec/devise/wiki/How-To:-Use-custom-mailer&usg=ALkJrhh4gyW5Gnz5yGRObTjXUnPdLrj6xw)
 
 
-
-
-
++ [video ](https://www.youtube.com/watch?v=9QCatmBq-R8) envio de emails rails
