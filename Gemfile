@@ -35,6 +35,8 @@ gem 'devise'
 
 gem 'dotenv-rails'
 
+gem 'devise-async'
+gem 'sidekiq'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
